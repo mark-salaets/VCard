@@ -7,13 +7,14 @@
   align-items: center;
   padding: 10px;
   margin: auto;
-  background-color: #364359;
+  background-image: linear-gradient(to right, rgb(37, 53, 79) , rgb(127, 164, 224));
   color: white;
   font-family: arial, sans-serif;
 }
 
-li {
-  list-style: none;
+ul {
+  list-style-type: none;
+  padding-left: 20px;
 }
 
 .photo {
@@ -22,6 +23,7 @@ li {
 
 .intro {
   align-self: flex-start;
+
 }
 
 .question {
@@ -29,5 +31,5 @@ li {
 }
 
 .answer {
-
+  text-align: right;
 }
