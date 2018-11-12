@@ -1,0 +1,33 @@
+.card {
+  border: 1px solid black;
+  height: 250px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+  background-color: #364359;
+  color: white;
+  font-family: arial, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.photo {
+
+}
+
+.intro {
+  align-self: flex-start;
+}
+
+.question {
+  border-left: 1px black solid;
+}
+
+.answer {
+
+}
