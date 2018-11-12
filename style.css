@@ -1,4 +1,9 @@
+body {
+  background-color: #273f38;
+}
+
 .card {
+  position: relative;
   border: 1px solid black;
   height: 250px;
   width: 800px;
@@ -6,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  margin: auto;
+  margin: 200px auto;
   background-image: linear-gradient(to right, rgb(37, 53, 79) , rgb(127, 164, 224));
   color: white;
   font-family: arial, sans-serif;
@@ -17,8 +22,14 @@ ul {
   padding-left: 20px;
 }
 
-.photo {
+li {
+    margin-bottom: 5px;
+}
 
+.photo {
+  position: relative;
+  top: -80px;
+  left: -30px;
 }
 
 .intro {
@@ -28,8 +39,27 @@ ul {
 
 .question {
   border-left: 1px black solid;
+
 }
 
 .answer {
   text-align: right;
+}
+
+.links {
+  position: absolute;
+  right: 0px;
+  bottom: -40px;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid black;
+  color: white;
+  padding: 10px;
+  background-image: linear-gradient(to right, rgb(37, 53, 79) , rgb(127, 164, 224));
+}
+
+a:hover {
+  margin: 0px 4px 0px 0px;
 }
